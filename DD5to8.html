@@ -1,0 +1,366 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Week 1 to 4</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+    <link href="assets/css/main.css" rel="stylesheet"/>
+    <noscript>
+        <link href="assets/css/noscript.css" rel="stylesheet"/>
+    </noscript>
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+        <a class="logo" href="index.html"><strong>Home</strong> </a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="DevDiary.html">DevDiary</a></li>
+            <li><a href="DD1to4.html">Weeks1to4</a></li>
+            <li><a href="DD5to8.html">Weeks5to8</a></li>
+            <li><a href="elements.html">Weeks5to8</a></li>
+        </ul>
+        <ul class="actions stacked">
+            <li><a class="button primary fit" href="#">Get Started</a></li>
+            <li><a class="button fit" href="#">Log In</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <div class="alt" id="main">
+
+        <!-- One -->
+        <section id="one">
+            <div class="inner">
+                <header class="major">
+                    <h1>Week1-3</h1>
+                </header>
+                <span class="image main"><img alt="" src="images/pic11.jpg"/></span>
+                <h2>Week 5</h2>
+                <h3>Difficulties</h3>
+                <p></p>
+                <p></p>
+                <p>O</p>
+            </div>
+        </section>
+
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>Week 5</h2>
+                    <h2>Inventory System and UI Collaboration </h2>
+                </header>
+                <h3>Task Breakdown & Team Coordination</h3>
+                
+                
+                <p>After discussing tasks with the team, I realized Kiki (UI developer) needed the inventory and progress bar systems functional before she could design their interfaces. To unblock her work, I prioritized implementing the core inventory logic.</p>
+                
+                <h4>Inventory System Implementation</h4>
+                <p>I started by researching inventory systems, referencing tutorials like Code Monkey’s ScriptableObject Inventory and GMO’s designs. </p>
+                <p>The system required three key classes:</p>
+                 
+                <h5>ItemData</h5>
+                <p>This stores the data (name, type, icon, etc.) for each type of item.Every item in the game will reference an ItemData object.
+                </p>
+                <p>I learned that using ScriptableObjects helps separate data from logic, making it easier to manage and modify items later.I did not understand the difference between this and GameObjects , but I started to get the hang of it after I followed this youtube video.</p>
+                <a href="https://youtu.be/7jxS8HIny3Q?si=vr4B6s67_dVyfwDs"
+                   target="_blank">
+                    ScriptableObjects by CodeMonkey
+                </a>
+                <h5>InventoryItem</h5>
+                <h5>InventoryManager</h5>
+                <h5>ClickItem</h5>
+              
+              
+                <a href="https://youtu.be/geq7lQSBDAE?si=DSTymZzdJhdsGhYB"
+                   target="_blank">
+                    InventorySystem by BMo
+                </a>
+             
+                https://youtu.be/7jxS8HIny3Q?si=vr4B6s67_dVyfwDs
+                <h3></h3>
+                <p></p>
+                <p>Ultimately, I decided on an RPG-style game where the protagonist is thrown into a world of
+                    nothingness. The game symbolizes an individual’s struggle with their own mind. The monsters
+                    encountered represent psychological torment, and the player must navigate through multiple maps in
+                    an attempt to improve. However, just when they believe they have overcome their struggles, they are
+                    cast into darkness once again—symbolizing the harsh reality that, no matter how hard one tries,
+                    success is not always guaranteed.
+
+                    I am particularly drawn to psychological games that evoke deep emotions, challenge the player’s
+                    perception, and leave them reflecting on their choices. I want to create an experience that makes
+                    players think, regret, and feel—one that stays with them long after they finish playing.</p>
+
+                <h4>Second Meeting-February 5th of February</h4>
+
+                <p>During our second meeting on February 5th, we had an in-depth discussion about the type of game we
+                    wanted to create. We brainstormed and refined our ideas, focusing on narrative structure and core
+                    themes. Our initial concept centered around a main character (MC) whose story unfolds through
+                    multiple scenes, each revealing a different perspective. A key element of the narrative is the
+                    narrator, who controls the truth and influences how the story is perceived.</p>
+                <p></p>
+                <p></p>
+                <h4>Technical Troubleshooting and Game Inspiration</h4>
+                <p></p>
+                <p></p>
+                <p></p>
+                <h4>Fixing Unity Installation</h4>
+                <p>On Wednesday, I was finally able to resolve the Unity installation issue. The problem stemmed from
+                    pop-up prompts that appeared during the installation process, requiring me to select "Yes" or "No"
+                    within a 10-second window. Since I had previously missed these prompts, the installation would fail
+                    each time. My instructor identified this issue and advised me to keep my eyes on the screen at all
+                    times. Following his guidance, we successfully installed Unity, allowing me to begin the Flappy Bird
+                    tutorial, which had been recommended by our teacher.</p>
+                <h4>Challenges with Learning Unity</h4>
+                <p>One of my biggest challenges was focusing on a single tutorial at a time. I wanted to explore
+                    multiple approaches and gain a broad understanding of different game mechanics and methods. This led
+                    to difficulty in choosing which tutorial to follow, as I often found myself switching between
+                    resources. To address this, I decided to follow a tutorial while simultaneously researching
+                    solutions independently, using the Unity Documentation and other sources.</p>
+                <p>Despite my efforts, I encountered several conceptual challenges, particularly in understanding:</p>
+                <p>Vectors (Vector2 vs. Vector3)</p>
+                <p>Transforms and object positioning</p>
+                <p>nput handling methods</p>
+                <p>Through research, I discovered that Vector2 represents x and y coordinates, while Vector3
+                    incorporates x, y, and z. Additionally, I learned that Input.GetAxis provides smoother movement than
+                    Input.GetKey since it allows players to use both WASD and arrow keys while offering gradual
+                    acceleration and deceleration.</p>
+                <img alt="" data-position="center center" src="images/ImgW1.1.png"/>
+
+                <h4>Friday Meeting – Act 2 Planning</h4>
+                <p>On Friday, we held another team meeting, this time at the Kenny Business Center, to refine our plans
+                    for Act 2 of the game. Since we had not yet finalized its structure, we discussed potential gameplay
+                    elements and made several adjustments.
+
+                    Act 2 is centered around the library, where the main character works as an assistant to the head
+                    librarian. The MC interacts with both a scribe and a librarian, engaging in random conversations
+                    that gradually reveal key story details. The core gameplay involves completing two to three tasks,
+                    including:
+
+                    Sorting books by initials
+
+                    Checking in books
+
+                    Uncovering a hidden book, which their past self seemingly knew about
+
+                    We brainstormed additional task ideas, with suggestions including repairing broken glass and other
+                    interactive puzzles. While we did not finalize all elements of Act 2, the discussion helped us m</p>
+                <p></p>
+                <p></p>
+
+
+            </div>
+        </section>
+        <section id="three">
+            <div class="inner">
+                <header class="major">
+                    <h2>Week 7</h2>
+                </header>
+
+                <p>On Monday (5-6 PM), our team met to discuss our project in greater detail. After careful
+                    consideration, we decided to switch from Unity to Unreal Engine due to its superior graphics,
+                    built-in features, and Blueprint system, which allows beginners to create complex games without
+                    coding. Initially, I was hesitant about switching, as I had become more comfortable with Unity.
+                    However, after watching more tutorials, I became intrigued by Unreal Engine’s capabilities and
+                    wanted to explore it further.
+
+                    I recognize that learning Unreal will take longer, as I plan to understand Blueprints first before
+                    transitioning to C++. I believe this approach will help me grasp gameplay mechanics more thoroughly.
+                    Additionally, Unreal allows for a hybrid workflow, integrating both Blueprints and C++, which is
+                    highly beneficial.
+
+                    During the meeting, we also discussed suitable meeting times. The team leader suggested that
+                    everyone should at least complete a 2D tutorial in Unreal by Wednesday to get familiar with the
+                    engine. Monday and Friday meetings were made mandatory, with a proposed Monday 9 AM lab session
+                    since most of us are available then. We anticipated that fewer people would attend this session,
+                    making it an ideal time for focused work. Our Friday meetings were scheduled for 12-1 PM.
+
+                    Another key discussion point was assigning roles within the team. One member broke down the gameplay
+                    mechanics, and I took notes to ensure I fully understood our project’s direction. Although my
+                    primary role is coding, I believe understanding the overall game design will help me develop better
+                    solutions for potential challenges. I always make it a priority to attend team meetings, as taking
+                    my own notes significantly enhances my comprehension.
+
+                    I planned to install Unreal Engine and go through several tutorials to familiarize myself with the
+                    software.
+
+                    ﻿
+                    I decided to follow Cobra code 2D tutorial.Where I followed along with the different nodes related
+                    to movement and more.</p>
+                <h4>Challenges with Installing Unreal Engine</h4>
+                <p>Installing Unreal proved to be a significant challenge. The download remained stuck at the same
+                    percentage for extended periods. I tried to be patient, waiting two hours in hopes that it would at
+                    least reach the halfway mark. However, after four hours, it was still at 4%.
+
+                    In an attempt to speed up the process, I searched for other available laptops in the library, but
+                    downloading Unreal required administrative access, which I didn’t have. By 7 PM, I decided to leave
+                    it running and head home. The installation finally completed between 9 PM and 4 AM.
+
+                    Frustrated with the delay, I chose to study Unreal Engine concepts and game mechanics while waiting.
+                    Once the installation was complete, I immediately began watching tutorials. My main challenge was
+                    choosing the right tutorial—I ultimately selected Cobra Code’s 2D Unreal tutorial, as he is also an
+                    Unreal Engine instructor on Udemy. However, I decided against purchasing the full course, as it
+                    primarily focused on Blueprints rather than C++ integration, which is crucial for our project.
+                    Additionally, since I am only using Unreal for this semester, I didn’t find it worthwhile to invest
+                    in a course that wasn’t discounted</p>
+                <h4>Learning Unreal and Balancing Priorities</h4>
+                <p>wrong.
+
+                    Another challenge I encountered was that, despite following the tutorial, I could not get the
+                    character to move, regardless of how many times I attempted to implement it. I rewatched the
+                    tutorial to identify my mistake. When I sought guidance from the instructor, he advised me to review
+                    the videos again, explaining that I had been deviating from the intended approach by trying to
+                    implement my own methods—which ultimately proved counterproductive. Consequently, I revisited the
+                    tutorial to pinpoint where I went wrong.
+
+                    Balancing Unreal with midterm studies is proving to be a challenge. My primary focus right now is
+                    understanding Unreal Engine, but I recognize that I cannot make it my sole priority. I hope to find
+                    a way to effectively manage both my coursework and game development responsibilities in the coming
+                    weeks.
+
+                    Unfortunately, I did not make significant progress because I was focused on resolving several
+                    issues. I plan to compensate for the lost time by dedicating more effort to game development this
+                    weekend and throughout the coming week. In the meantime, I have shifted my focus to an alternative
+                    Cobra tutorial that utilizes Unreal Engine 5.0. I was initially hoping to continue with Unity and
+                    truly wish we had remained with it.</p>
+
+                <p>What i wrote down so far ,from my teams Trello board</p>
+                <a href="https://trello.com/invite/b/67a24af8224a53f6a23fa1da/ATTIc29d0cdeacd860fd3c691fd3f7958914E4DF68C5/game-project"
+                   target="_blank">
+                    Join the Game Project Trello Board
+                </a>
+                <a href="https://docs.google.com/document/d/1ToKP52VX2O3P0MS4f4Wi9OprffTGmxay9mgfn631wq4/edit?usp=sharing"
+                   target="_blank">
+                    📄 Game Project Document – Design, Research & Notes
+                </a>
+
+            </div>
+        </section>
+        <section id="four">
+            <div class="inner">
+
+
+                <h2>Week 4</h2>
+                <h3>Asked my team to switch from Unreal to Unity</h3>
+                <p>After a lot of consideration, I decided that doing Unity instead of Unreal had more benefits.</p>
+                <p>Here,I started understanding C# and following unity tutorials, so my memory of it will come back.I ws
+                    contemplating buying a unity course on Udemy, then I realized that it was a waste of money, if I am
+                    not going into games development in second year.</p>
+                <img alt="" data-position="center center" src="images/UnitySwitch.png"/>
+
+
+                <h4>Gave roles to coders</h4>
+
+                <p>On friday I,the head coder Diana gave the different coding roles such as Ui developer, painting scene
+                    developer, narration developer and gameplay developer to the coders.I broke down the roles so the
+                    coders will understand what they need to do.I used information from my notes in order to make this
+                    happen.We talked about the individual roles not in detail just a summary.
+                </p>
+                <img alt="" data-position="center center" src="images/TeamRoles.png"/>
+
+
+            </div>
+        </section>
+
+
+    </div>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="inner">
+            <section>
+                <form action="#" method="post">
+                    <div class="fields">
+                        <div class="field half">
+                            <label for="name">Name</label>
+                            <input id="name" name="name" type="text"/>
+                        </div>
+                        <div class="field half">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="text"/>
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6"></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions">
+                        <li><input class="primary" type="submit" value="Send Message"/></li>
+                        <li><input type="reset" value="Clear"/></li>
+                    </ul>
+                </form>
+            </section>
+            <section class="split">
+                <section>
+                    <div class="contact-method">
+                        <span class="icon solid alt fa-envelope"></span>
+                        <h3>Email</h3>
+                        <a href="#">information@untitled.tld</a>
+                    </div>
+                </section>
+                <section>
+                    <div class="contact-method">
+                        <span class="icon solid alt fa-phone"></span>
+                        <h3>Phone</h3>
+                        <span>(000) 000-0000 x12387</span>
+                    </div>
+                </section>
+                <section>
+                    <div class="contact-method">
+                        <span class="icon solid alt fa-home"></span>
+                        <h3>Address</h3>
+                        <span>1234 Somewhere Road #5432<br/>
+										Nashville, TN 00000<br/>
+										United States of America</span>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                <li><a class="icon brands alt fa-twitter" href="#"><span class="label">Twitter</span></a></li>
+                <li><a class="icon brands alt fa-facebook-f" href="#"><span class="label">Facebook</span></a></li>
+                <li><a class="icon brands alt fa-instagram" href="#"><span class="label">Instagram</span></a></li>
+                <li><a class="icon brands alt fa-github" href="#"><span class="label">GitHub</span></a></li>
+                <li><a class="icon brands alt fa-linkedin-in" href="#"><span class="label">LinkedIn</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Untitled</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
